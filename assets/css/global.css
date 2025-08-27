@@ -2820,3 +2820,19 @@ p {
   pointer-events: all;
 }
 /*# sourceMappingURL=global.css.map */
+
+/* Logo als tekst */
+.logo-text {
+  font-family: 'Montserrat', sans-serif; /* of je branding-font */
+  font-weight: 800;
+  font-size: 28px;          /* pas aan naar smaak */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;              /* wit voor dark bg */
+  display: inline-block;
+}
+
+/* voor dark/light variant */
+.site-header.v-light .logo-text {
+  color: #121212;           /* zwart voor lichte header */
+}
