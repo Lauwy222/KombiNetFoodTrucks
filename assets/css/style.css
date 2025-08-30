@@ -7412,3 +7412,32 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+.dsn-accordion .accordion-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    cursor: pointer;
+  }
+
+  .dsn-accordion .accordion-title {
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+  }
+
+  .dsn-accordion .accordion-title::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    transition: transform 0.2s;
+  }
+
+  .dsn-accordion .accordion-item.active .accordion-title::after {
+    content: '-';
+  }
+
+  .dsn-accordion .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    margin-top: 10px;
+  }

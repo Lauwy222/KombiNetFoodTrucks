@@ -1540,3 +1540,20 @@ function sidebarOptions() {
   document.body.classList.toggle('dsn-show-sidebar');
 }
 //# sourceMappingURL=custom.js.map
+  document.addEventListener("DOMContentLoaded", function() {
+    const items = document.querySelectorAll(".accordion-item");
+
+    items.forEach(item => {
+      const title = item.querySelector(".accordion-title");
+      title.addEventListener("click", () => {
+        item.classList.toggle("active");
+
+        const content = item.querySelector(".accordion-content");
+        if (item.classList.contains("active")) {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } else {
+          content.style.maxHeight = null;
+        }
+      });
+    });
+  });
