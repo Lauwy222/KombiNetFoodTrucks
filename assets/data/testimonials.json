@@ -1,0 +1,23 @@
+[
+  {
+    "rating": 5.0,
+    "quote": "The KombiNed team nailed it. The van turned into a crowd magnet at every event.",
+    "name": "Sophie Janssen",
+    "role": "Event Manager, Urban Tastes",
+    "avatar": "assets/img/team/placeholder.jpg"
+  },
+  {
+    "rating": 4.8,
+    "quote": "Impeccable build quality and smooth process. The electric option fits our brand perfectly.",
+    "name": "Daan Vermeer",
+    "role": "Brand Lead, GreenFuel",
+    "avatar": "assets/img/team/placeholder2.jpg"
+  },
+  {
+    "rating": 4.9,
+    "quote": "From concept to delivery, everything was clear and on time. Guests still talk about the truck!",
+    "name": "Marieke de Vries",
+    "role": "Hospitality Director, Harbour Events",
+    "avatar": "assets/img/team/placeholder3.jpg"
+  }
+]
